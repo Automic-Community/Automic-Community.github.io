@@ -1,27 +1,68 @@
 <header class="site-header">
 
-  <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-
-      <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
-
-  </div>
-
+  <title>Automic | Documentation</title>
+    <link type="image/vnd.microsoft.icon" rel="shortcut icon" href="http://www.automic.com/templates/automic/favicon.ico">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <script src="/script.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+     <link rel="stylesheet" href="http://www.automic.com/assets/css/custom_front.css">
+    <link rel="stylesheet" href="/style.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-39322866-2', 'auto');
+	ga('send', 'pageview');
+    </script>
 </header>
+
+<div role="navigation" class="navbar navbar-default navbar-fixed-top" id="nav-strip">
+	<div class="bottom-nav ">
+	  <div class="row">
+	    <div class="container">
+	      <select style="display:none;" id="source">
+			  <option value="EN" selected="selected"></option>
+			
+			  <option value="DE"></option>
+			  <option value="FR"></option>
+			 
+		      </select>
+		      <dl class="dropdown nav navbar-nav navbar-right">
+		       <div class="dp"></div>
+		    </dl> 
+	      <div class="col-sm-3">
+		<a class="navbar-brand" href="http://www.automic.com/">
+		  <img class="image-logo" src="http://www.automic.com/assets/uploads/theme/white_logo.png" alt="" style="height: 30px;">
+		</a>
+		
+	      </div>
+	      <div class="col-sm-9">
+		<div class="navbar-header">
+		  <button data-target=".topheader" data-toggle="collapse" class="navbar-toggle" type="button">
+		    <span class="sr-only">Toggle navigation</span>
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>
+		  </button>
+		</div>
+		<div style=" position: relative; top: 20px;" class="navbar-collapse topheader collapse">
+		 <!--/ 	<span class="glyphicon glyphicon-user start"></span>-->
+		  <ul class="nav navbar-nav front">
+		<li><a href="/one-automation.php">ONE Automation</a></li>
+                <li><a href="/applications-manager.php">Applications Manager</a></li>
+                <li><a href="/offerings.php">Offerings</a></li>
+                <li><a href="https://orsyp.secure.force.com/sfc/#workspaceView?selectedWorkspaceId=05840000000Car7" target="_blank">ORSYP</a></li>
+                <li><a href="http://community.automic.com" target="_blank">Community</a></li>
+                 </ul>
+
+				
+		</div><!--/.nav-collapse -->
+	      </div><!--/.span-12 -->
+	    </div><!--/.row -->
+	  </div>
+      </div>
+    </div>
