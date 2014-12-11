@@ -202,9 +202,7 @@ blockquote p {
     vertical-align: middle;
 }
 
-#hamburger {
-    display: none;
-}
+
 
 .nav {
     margin: 0 0 0 220px;
@@ -250,54 +248,15 @@ blockquote p {
     opacity: 1;
 }
 
-#hero-wrapper {
-    margin: 47px 0 0;
-}
 
-#hero {
-    color: #fff;
-/*    height: 245px;*/
-/*    padding-bottom: 30px;*/
-}
 
-#hero h1 {
-    color: #fff;
-/*    margin: 0;*/
-    padding: 1em 0 0;
-/*    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.12);*/
-    font-family: "adobe-clean-semilight","HelveticaNeue-Light",Helvetica,Arial,sans-serif;
-    font-weight: 300;
-    font-size:2.6rem;
-    margin-bottom: 30px;
-/*
-    color: #FFF;
-    text-shadow: 2px 2px 2px #333;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 4.5rem;
-    line-height: 0.88;
-    font-family: "source-sans-pro",sans-serif;
-*/
-}
 
-#hero p {
-    font-size: 1.3em;
-/*    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.12);*/
-    width: 480px;
-    line-height: 1.6em;
-/*    color: #dedede;*/
-    color:#fff;
-}
 
 #download p {
     width: 370px;
 }
 
-#hero p > a, #os-alert a, #sub-hero a {
-/*    color: #7dfffa;*/
-    font-weight: 600;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-}
+
 
 #download p > a {
     font-size: .7em;
@@ -309,14 +268,7 @@ blockquote p {
     max-width: 95% !important;
 }
 
-#hero-cta-button {
-    background: #2D2E30;
-    color: #8fddff;
-}
 
-#hero-cta-button:active {
-    background: #000;
-}
 
 #os-alert {
     display: none;
@@ -347,26 +299,10 @@ blockquote p {
     margin: 0;
 }
 
-#sub-hero-wrapper {
-/*    background: #2fa7fc;*/
-    -webkit-box-shadow: inset 0 -2px 3px rgba(0, 0, 0, 0.12);
-/*    box-shadow: inset 0 -2px 3px rgba(0, 0, 0, 0.12);*/
-    padding: 40px 0 20px 0;
-    border-bottom: 1px solid #ccc;
-}
 
-#sub-hero,
-#sub-hero h2,
-#sub-hero p,
-#sub-hero li {
-    color: #fff;
-}
 
-#sub-hero h2 {
-    font-weight: 600;
-    font-size: 1em;
-    margin-bottom: 0.2em;
-}
+
+
 
 .card {
     border: 1px solid #d7d7d7;
