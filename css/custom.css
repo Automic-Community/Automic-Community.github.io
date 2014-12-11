@@ -1,0 +1,18 @@
+
+.home p.rss-subscribe {
+    text-align: center;
+}
+
+div.home {
+    padding-top: 75px;
+}
+
+div#tag-select.row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#content.row {
+    margin-left: auto;
+    margin-right: auto;
+}
