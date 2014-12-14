@@ -30,6 +30,17 @@ a:visited {
 }
 
 
+article.tagged div {
+     display: inline-block;
+}
+
+article.tagged div.art_desc {
+     max-width: 80%;
+}
+
+article.tagged div.van_comment_count {
+     float: right;
+}
 
 
 /* Foundation Override
